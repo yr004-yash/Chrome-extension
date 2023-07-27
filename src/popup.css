@@ -1,0 +1,64 @@
+.green {
+  color: #0a0 !important;
+  font-size: 1.3rem !important;
+  font-weight: bold !important;
+}
+
+.darkblue {
+  color: darkblue !important;
+}
+
+.tsize {
+  font-size: 15px !important;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(188, 187, 154) !important;
+  background-color: #e6f0ff !important;
+}
+
+.fontlow {
+  font-weight: 400 !important;
+}
+
+td {
+  padding: 6px !important;
+}
+
+.pelu {
+  font-weight: 390 !important;
+}
+
+.aaaa {
+  background-color: #f9fcff !important;
+}
+
+.rej {
+  color: #00a !important;
+  font-size: 13.5px !important;
+  font-weight: 380 !important;
+}
+
+.xx {
+  background-color: #f8f8f8 !important;
+}
+
+.yy {
+  background-color: white ;
+}
+
+.xd {
+  font-size: 17px !important;
+  font-weight: 400 !important;
+  text-align: center !important;
+}
+
+.xdd {
+  font-size: 30px !important;
+  text-align: center !important ;
+}
+.info11{
+  font-weight: bold !important;
+}

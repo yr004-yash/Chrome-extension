@@ -1,0 +1,30 @@
+{
+    "name": "CF",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://codeforces.com/profile/*"
+            ],
+            "js": [
+                "contentScript.js"
+            ],
+            "css": [
+                "popup.css"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://codeforces.com/contest/*"
+    ]
+
+}
